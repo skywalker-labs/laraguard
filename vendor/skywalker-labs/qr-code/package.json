@@ -1,0 +1,7 @@
+{
+    "name": "skywalker-labs-qr-code",
+    "private": true,
+    "devDependencies": {
+        "pixelmatch": "^7.1.0"
+    }
+}

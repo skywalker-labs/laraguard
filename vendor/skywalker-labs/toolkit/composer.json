@@ -1,0 +1,81 @@
+{
+    "name": "skywalker-labs/toolkit",
+    "description": "A comprehensive toolkit for Laravel package and application development.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "toolkit",
+        "package-development",
+        "helpers",
+        "mradul"
+    ],
+    "homepage": "https://github.com/skywalker-labs/toolkit",
+    "support": {
+        "issues": "https://github.com/skywalker-labs/toolkit/issues",
+        "source": "https://github.com/skywalker-labs/toolkit"
+    },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/ermradulsharma"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Skywalker Labs Team",
+            "email": "skywalkerlknw@gmail.com",
+            "homepage": "https://skywalker-labs.com/",
+            "role": "Developer"
+        },
+        {
+            "name": "Mradul Sharma",
+            "email": "skywalkerlknw@gmail.com",
+            "homepage": "https://mradulsharma.vercel.app/",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^7.2|^7.3|^7.4|^8.0|^8.1|^8.2|^8.3|^8.4|^8.5",
+        "illuminate/cache": "^5.5|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+        "illuminate/console": "^5.5|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+        "illuminate/contracts": "^5.5|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+        "illuminate/database": "^5.5|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+        "illuminate/support": "^5.5|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0|^13.0"
+    },
+    "require-dev": {
+        "laravel/framework": "^5.5|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+        "orchestra/testbench": "^3.5|^4.0|^5.0|^6.0|^7.0|^8.0|^9.0|^10.0",
+        "phpunit/phpunit": "^7.0|^8.0|^9.0|^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skywalker\\Support\\": "src/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Skywalker\\Support\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --colors=always",
+        "test:dox": "phpunit --testdox --colors=always",
+        "test:cov": "phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+                "*"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

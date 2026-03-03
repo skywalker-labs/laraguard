@@ -1,0 +1,43 @@
+{
+    "name": "skywalker-labs/enum",
+    "description": "A robust and type-safe Enum implementation for PHP, featuring singleton-based constants, mapping capabilities, and extensive compatibility from PHP 7.0 to 9.0.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Skywalker Labs Team",
+            "email": "skywalkerlknw@gmail.com",
+            "homepage": "https://skywalker-labs.com/",
+            "role": "Maintainer"
+        }
+    ],
+    "keywords": [
+        "enum",
+        "map",
+        "type-safe",
+        "singleton",
+        "constants",
+        "php-enum",
+        "compatibility"
+    ],
+    "require": {
+        "php": ">=7.0 <10.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7 || ^8 || ^9 || ^10 || ^11 || ^12",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skywalker\\Enum\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Skywalker\\EnumTest\\": "test/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "phpcs": "phpcs"
+    }
+}

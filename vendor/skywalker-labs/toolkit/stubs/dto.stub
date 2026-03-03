@@ -1,0 +1,10 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use Skywalker\Support\Data\Dto;
+
+class $CLASS$ extends Dto
+{
+    // public string $name;
+}

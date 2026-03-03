@@ -1,0 +1,84 @@
+{
+    "name": "skywalker-labs/laraguard",
+    "description": "On-premises 2FA Authentication for all your users out-of-the-box",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "2fa",
+        "authentication",
+        "laravel",
+        "skywalker",
+        "two-factor"
+    ],
+    "homepage": "https://github.com/skywalker-labs/laraguard",
+    "support": {
+        "issues": "https://github.com/skywalker-labs/laraguard/issues",
+        "source": "https://github.com/skywalker-labs/laraguard"
+    },
+    "authors": [
+        {
+            "name": "Skywalker Labs Team",
+            "email": "skywalkerlknw@gmail.com",
+            "homepage": "https://skywalker-labs.com/",
+            "role": "Developer"
+        },
+        {
+            "name": "Mradul Sharma",
+            "email": "skywalkerlknw@gmail.com",
+            "homepage": "https://mradulsharma.vercel.app/",
+            "role": "Lead Developer"
+        }
+    ],
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/ermradulsharma"
+        }
+    ],
+    "require": {
+        "php": "^8.1|^8.2|^8.3|^8.4",
+        "ext-json": "*",
+        "illuminate/auth": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/config": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/database": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/http": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/validation": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "skywalker-labs/constant-time-encoding": "1.0",
+        "skywalker-labs/qr-code": "^1.0",
+        "skywalker-labs/toolkit": "^1.0|^2.0"
+    },
+    "require-dev": {
+        "doctrine/dbal": "^4.4",
+        "mockery/mockery": "^1.6",
+        "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
+        "phpunit/phpunit": "^10.5|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skywalker\\Laraguard\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/",
+            "Database\\Factories\\Skywalker\\Laraguard\\": "database/factories/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Skywalker\\Laraguard\\Providers\\LaraguardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
