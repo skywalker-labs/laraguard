@@ -12,4 +12,4 @@ Thumbs.db
 *.xml
 !phpunit.xml.dist
 !composer.json
-!composer.lock
+composer.lock
