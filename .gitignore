@@ -1,8 +1,15 @@
 /vendor
 /.phpunit.result.cache
 /.phpunit.cache
+/.phpunit.cache/
 /build
 /coverage
 .env
 phpunit.xml
 !phpunit.xml.dist
+.DS_Store
+Thumbs.db
+*.xml
+!phpunit.xml.dist
+!composer.json
+!composer.lock
