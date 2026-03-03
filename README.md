@@ -2,7 +2,7 @@
 
 <img src="logo.jpg" width="400" alt="Laraguard Omega Logo">
 
-# Laraguard Omega (v5.0) 🛡️💎
+# Laraguard Omega (v1.0) 🛡️💎
 ### The Ultimate Sovereign 2FA Fortress for Laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/skywalker-labs/laraguard.svg?style=for-the-badge&color=blue)](https://packagist.org/packages/skywalker-labs/laraguard)
@@ -13,12 +13,12 @@
 
 ---
 
-**Laraguard Omega** is a premier, enterprise-grade Two-Factor Authentication (2FA) suite for Laravel. Re-engineered from the ground up in v5.0, it offers a "Sovereign Security" experience that combines stealth architecture with elite performance.
+**Laraguard Omega** is a premier, enterprise-grade Two-Factor Authentication (2FA) suite for Laravel. Re-engineered from the ground up in v1.0, it offers a "Sovereign Security" experience that combines stealth architecture with elite performance.
 
 </div>
 
 ## 🏛️ Modern Architecture (The V5 Refactor)
-Laraguard v5.0 introduces a modernized, PSR-4 compliant directory structure built for maximum maintainability:
+Laraguard v1.0 introduces a modernized, PSR-4 compliant directory structure built for maximum maintainability:
 - 🧬 **`src/Traits`**: Decoupled, reusable security concerns.
 - � **`src/Providers`**: High-performance service bootstrapping and discovery.
 - 🧱 **`src/Models`**: Dedicated model layer with specialized `Concerns`.
