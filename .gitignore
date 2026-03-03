@@ -1,0 +1,8 @@
+/vendor
+/.phpunit.result.cache
+/.phpunit.cache
+/build
+/coverage
+.env
+phpunit.xml
+!phpunit.xml.dist
